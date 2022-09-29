@@ -213,3 +213,89 @@ main {
   font-weight: 400;
   color: var(--text-gray);
 }
+
+/* discover  */
+
+#discover {
+  padding: 70px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+#discover h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+#discover p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-gray);
+}
+
+.discover-cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.discover-card {
+  width: 300px;
+  height: 280px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: var(--secondary);
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.discover-card img {
+  width: 65px;
+}
+
+.discover-card h3 {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.discover-card p {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text-gray);
+}
+
+footer {
+  background: var(--background);
+  color: var(--bg-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 0px;
+}
+
+footer a {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--text-white);
+}
+
+footer img {
+  width: 150px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
